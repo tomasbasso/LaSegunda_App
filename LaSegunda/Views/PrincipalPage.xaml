@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionMovil.Views.PrincipalPage"
+             Title="PrincipalPage"
+             BackgroundColor="#F3131E">
+    <VerticalStackLayout>
+        <Label FontSize="30" Text="Nuestra Compañia" TextColor="White" HorizontalOptions="Center" Margin="5"/>
+        <Label FontSize="20" Text="Vision" TextColor="White" HorizontalOptions="Center" Margin="5"/>
+        <Label FontSize="15" Text="Ser lider del mercado asegurador argentino posicionandonos dentro de los tres pirmeros grupos aseguradores, con solvencia y presencia federal, vivinedo interna y externamente los valorrs cooperativos que nos fundaron" 
+               TextColor="White" HorizontalOptions="CenterAndExpand" Margin="10"/>
+        <Image Source="EDIFICIO.jpg" WidthRequest="300" HeightRequest="180" Aspect="AspectFit"  />
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Acerca de" BackgroundColor="White" TextColor="#F3131E" Margin="15" WidthRequest="100" Clicked="Button_Clicked"/>
+            <Button Text="Cerrar Sesion" BackgroundColor="White" TextColor="#F3131E" Margin="15" WidthRequest="120" Clicked="Button_Clicked_1"/>
+
+
+        </HorizontalStackLayout> 
+        
+    </VerticalStackLayout>
+
+</ContentPage>
